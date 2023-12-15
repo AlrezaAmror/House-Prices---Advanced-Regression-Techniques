@@ -1,0 +1,19 @@
+DROP
+quan -> "TotalBsmtSF", "GrLivArea", "BsmtUnfSF", "LowQualFinSF", "BsmtFinSF1", "BsmtFinSF2", "1stFlrSF", "2ndFlrSF", "BsmtFullBath", "BsmtHalfBath", "FullBath", "HalfBath", "OpenPorchSF", "EnclosedPorch", "3SsnPorch", "ScreenPorch", "GarageCars"
+
+ordi -> "PoolQC", "Condition1", "Condition2", "YearBuilt", "YearRemodAdd", "YrSold", "Heating","HeatingQC", "GarageQual", "GarageCond", "MoSold", "GarageYrBlt"
+
+nomi -> "MiscFeature", Exterior2nd, RoofMatl, Exterior1st, HouseStyle, MSSubClass, Electrical,
+
+ADD
+quan -> "BsmtSF", "FlrSF", "AgeHouse", "TotalBath", "TotalPorch", "ProximityStatus"
+
+ordi -> "2ndFlr", "RenovStat", "ValHeating", "GarageOvAll"
+
+nomi -> 
+
+other -> Exterior2nd, RoofMatl, Exterior1st, HouseStyle, MSSubClass, Electrical,
+
+RoofMatl : "Roll", "Membran", "Tar&Grv", "CompShg", "Metal", "ClyTile", "WdShake", "WdShngl"
+
+Exterior : "CBlock", "AsbShng", "AsphShn", "Plywood", "HdBoard", "BrkComm", "BrkFace", "CemntBd", "Stucco", "ImStucc", "MetalSd", "Stone", "PreCast", "VinylSd", "Wd Sdng", "WdShing", "Other"
